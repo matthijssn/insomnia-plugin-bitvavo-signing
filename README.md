@@ -11,10 +11,10 @@ Bitvavo requires the following headers to the requests:
 
 All signed REST requests must include the following headers:
 
-BITVAVO-ACCESS-KEY: Your API Key.
-BITVAVO-ACCESS-SIGNATURE: The signature for your REST request. This is explained below.
-BITVAVO-ACCESS-TIMESTAMP: The current timestamp in milliseconds since 1 Jan 1970.
-BITVAVO-ACCESS-WINDOW (optional): The window that allows execution of your request in milliseconds since 1 Jan 1970. The default value is 10000 (10s) and maximum value is 60000 (60s).
+- BITVAVO-ACCESS-KEY: Your API Key.
+- BITVAVO-ACCESS-SIGNATURE: The signature for your REST request. This is explained below.
+- BITVAVO-ACCESS-TIMESTAMP: The current timestamp in milliseconds since 1 Jan 1970.
+- BITVAVO-ACCESS-WINDOW (optional): The window that allows execution of your request in milliseconds since 1 Jan 1970. The default value is 10000 (10s) and maximum value is 60000 (60s).
 
 
 This plugin (when installed) checks all outgoing requests to see if:
