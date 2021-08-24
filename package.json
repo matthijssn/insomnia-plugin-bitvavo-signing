@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "author": "M. Sint Nicolaas",
   "licence": "MIT",
-  "repository": "NTB",
+  "repository": "https://github.com/matthijssn/insomnia-plugin-bitvavo-signing",
   "insomnia": {
     "name": "bitvavo-signature",
-    "description": "Automatically HMAC-sign private Bitvavo API calls"
+    "description": "Automatically HMAC-sign private Bitvavo API calls",
+    "images": {    
+      "icon": "https://bitvavo.com/press/blue/bitvavo-mark-rounded/bitvavo-mark-rounded-blue.svg"
+    }
   },
   "main": "main.js",
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "crypto-js": "^4.1.1"
   }
 }
